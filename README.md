@@ -13,6 +13,8 @@ My personal portfolio website
 
 
 Mobile Apps:
-![image](https://github.com/user-attachments/assets/b80ad478-0dfc-44fa-b144-be86c619ffb8)
+![image](https://github.com/user-attachments/assets/8b1f29bb-1dbd-4653-b561-aa7be99630d3)
+
+
 
 
