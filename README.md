@@ -1,9 +1,9 @@
 # tech-works
 My personal portfolio website
 
-#Created Wireframes
+# Created Wireframes
 
-- Styleguide
+# Styleguide
 
 ![image](https://github.com/user-attachments/assets/c0675812-786f-4466-abe9-1a585bdabd00)
 
@@ -12,7 +12,9 @@ My personal portfolio website
 
 
 
-Mobile Apps:
+# Mobile Apps:
+
+
 ![image](https://github.com/user-attachments/assets/8b1f29bb-1dbd-4653-b561-aa7be99630d3)
 
 
