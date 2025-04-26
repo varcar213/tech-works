@@ -22,6 +22,20 @@ My personal portfolio website
 
 ![image](https://github.com/user-attachments/assets/ec2e26c6-90c9-45a7-9f93-ce69b03bd059)
 
+# Wellness App and Website
+
+
+![image](https://github.com/user-attachments/assets/7a28af9a-bdf3-4db0-8b4e-c3df4aa96d55)
+![image](https://github.com/user-attachments/assets/0a32ca85-21ed-49da-8e3c-b4405cabf219)
+
+
+![image](https://github.com/user-attachments/assets/b550dcf3-f4f1-4c5f-abb7-542b503a4372)
+![image](https://github.com/user-attachments/assets/089c0c5f-e208-4113-bc92-75160d0ec534)
+
+
+
+
+
 
 
 
