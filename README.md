@@ -1,5 +1,13 @@
 # tech-works
-My personal portfolio website
+My portfolio website
+
+# SHAHSHRA SYNERGY INNOVATIONS PVT LTD
+
+
+![image](https://github.com/user-attachments/assets/10046067-9ec3-4063-8568-edd88db1e50e)
+![image](https://github.com/user-attachments/assets/99472c50-8a29-4f09-8dc3-ed506e6a0178)
+
+
 
 # Created Wireframes
 
