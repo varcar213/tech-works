@@ -4,9 +4,9 @@ My portfolio website
 # SHAHSHRA SYNERGY INNOVATIONS PVT LTD
 
 
-![image](https://github.com/user-attachments/assets/10046067-9ec3-4063-8568-edd88db1e50e)
-![image](https://github.com/user-attachments/assets/99472c50-8a29-4f09-8dc3-ed506e6a0178)
+![image](https://github.com/user-attachments/assets/2f27bda6-de5a-4264-bb11-553c42531653)
 
+![image](https://github.com/user-attachments/assets/5b8d6b12-d46b-44db-9707-93c4b7aa88ad)
 
 
 # Created Wireframes
