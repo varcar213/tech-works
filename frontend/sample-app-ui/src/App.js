@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect } from 'react';
 import './styles/App.scss';
 import ServiceCard from './components/ServiceCard';
 import ImageCard from './components/ImageCard';
@@ -8,13 +8,46 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
 import Sidebar from './components/Sidebar';
+import Carousel from './components/Carousel';
+import Tabs from './components/Tabs';
+import Accordion from './components/Accordion';
+import DarkModeToggle from './components/DarkModeToggle';
+import { ToastProvider } from './components/ToastContext';
+import DemoButtons from './components/DemoButtons';
+import Loader from './components/Loader';
+import CardGrid from './components/CardGrid';
+import PricingPlans from './components/PricingPlans';
+
 const App = () => {
+
   const [showModal, setShowModal] = useState(false);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    // Simulate API loading
+    const timer = setTimeout(() => setLoading(false), 3000);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="app-container">
       <Header />
       <Hero />
       <h1>Secure Your Digital Future</h1>
+      <div>
+      {loading ? <Loader /> : <h2>Spinner stopped! Data Loaded Successfully!</h2>}
+    </div>
+      <section id="tab" className="card-wrapper">
+          <Tabs />
+          <Accordion />
+          <DarkModeToggle />
+          <ToastProvider>
+            <DemoButtons />
+          </ToastProvider>
+        </section>
+        <section id="cardgrid" className="card-wrapper">
+          <CardGrid />
+          <PricingPlans />
+        </section>
       <button onClick={() => setShowModal(true)} className="open-modal-btn">
         Open Modal
       </button>
@@ -52,11 +85,14 @@ const App = () => {
           description="Protect your applications from threats and vulnerabilities."
         />
         </section>
+       
+        
         <section id="slidebar" className="card-wrapper">
-        <Sidebar/>
-        <Modal isOpen={showModal} onClose={() => setShowModal(false)} title="Welcome">
-        <p>This is a sample modal. You can show terms, login forms, or alerts here.</p>
-      </Modal>
+          <Sidebar/>
+          <Carousel />
+          <Modal isOpen={showModal} onClose={() => setShowModal(false)} title="Welcome">
+          <p>This is a sample modal. You can show terms, login forms, or alerts here.</p>
+          </Modal>
         </section>
         <ContactForm />
         <Footer />

@@ -1,0 +1,33 @@
+.tabs-container {
+    padding: 2rem;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin: 2rem 0;
+  }
+  
+  .tabs-header {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  
+    button {
+      background: #e2e8f0;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 500;
+  
+      &.active {
+        background-color: #1e40af;
+        color: white;
+      }
+    }
+  }
+  
+  .tabs-content {
+    font-size: 1rem;
+    color: #1f2937;
+  }
+  

@@ -1,0 +1,26 @@
+.toast-container {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+  }
+  
+  .toast {
+    background-color: #48bb78; // green for success
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .toast.warning {
+    background-color: #f6ad55; // orange for warning
+  }
+  
+  .toast.error {
+    background-color: #f56565; // red for error
+  }
+  
