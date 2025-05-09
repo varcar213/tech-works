@@ -1,16 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles/App.scss';
 import ServiceCard from './components/ServiceCard';
 import ImageCard from './components/ImageCard';
-
+import Header from './components/Header';
+import Hero from './components/Hero';
+import ContactForm from './components/ContactForm';
+import Footer from './components/Footer';
+import Modal from './components/Modal';
 
 const App = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div className="app-container">
-      <h1>Welcome to Sahasra Synergy</h1>
-
+      <Header />
+      <Hero />
+      <h1>Secure Your Digital Future</h1>
+      <button onClick={() => setShowModal(true)} className="open-modal-btn">
+        Open Modal
+      </button>
       <h2>Cards</h2>
-      <div className="card-wrapper">
+      <section id="cyberimages" className="card-wrapper">
         <ImageCard
           imageUrl="https://images.unsplash.com/photo-1740560051549-cc6799220d48?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           title="Cloud Security"
@@ -28,8 +37,8 @@ const App = () => {
         title="Cloud Security"
         description="Secure your cloud infrastructure with our expert solutions."
       />
-      </div>
-      <div className="card-wrapper">
+      </section>
+      <section id="services" className="card-wrapper">
         <ServiceCard
           title="Vulnerability Assessment"
           description="Identify and mitigate security weaknesses in your system."
@@ -42,7 +51,9 @@ const App = () => {
           title="Application Security"
           description="Protect your applications from threats and vulnerabilities."
         />
-      </div>
+        </section>
+        <ContactForm />
+        <Footer />
     </div>
   );
 };
