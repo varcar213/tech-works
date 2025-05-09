@@ -1,5 +1,8 @@
 Samples:
+![image](https://github.com/user-attachments/assets/e0d9e769-11e6-4267-bd90-8ddf2ea63562)
+
 ![image](https://github.com/user-attachments/assets/d40b0fda-6d30-41e3-87d5-3178f9d13ea5)
+![image](https://github.com/user-attachments/assets/7a680219-074b-472d-98ae-faad4c3e1b06)
 
 
 # Getting Started with Create React App
