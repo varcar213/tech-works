@@ -7,7 +7,7 @@ import Hero from './components/Hero';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Modal from './components/Modal';
-
+import Sidebar from './components/Sidebar';
 const App = () => {
   const [showModal, setShowModal] = useState(false);
   return (
@@ -51,6 +51,12 @@ const App = () => {
           title="Application Security"
           description="Protect your applications from threats and vulnerabilities."
         />
+        </section>
+        <section id="slidebar" className="card-wrapper">
+        <Sidebar/>
+        <Modal isOpen={showModal} onClose={() => setShowModal(false)} title="Welcome">
+        <p>This is a sample modal. You can show terms, login forms, or alerts here.</p>
+      </Modal>
         </section>
         <ContactForm />
         <Footer />
