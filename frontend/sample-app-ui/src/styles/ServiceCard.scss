@@ -1,0 +1,38 @@
+.service-card {
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.3s ease;
+  
+    h2 {
+      color: #111827;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      color: #4b5563;
+      font-size: 0.95rem;
+    }
+  
+    button {
+      margin-top: 1rem;
+      background-color: #2563eb;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #1d4ed8;
+      }
+    }
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+  
