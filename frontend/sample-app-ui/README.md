@@ -4,6 +4,24 @@ Samples:
 ![image](https://github.com/user-attachments/assets/d40b0fda-6d30-41e3-87d5-3178f9d13ea5)
 ![image](https://github.com/user-attachments/assets/7a680219-074b-472d-98ae-faad4c3e1b06)
 
+# I have covered the below for sample code :
+| Order | Component                        | Purpose / Client Value                            |
+| ----- | -------------------------------- | ------------------------------------------------- |
+| ✅ 1   | **Header/NavBar**                | Branding, navigation, and responsive layout       |
+| ✅ 2   | **Hero Section**                 | Marketing call-to-action, strong first impression |
+| ✅ 3   | **Service Cards**                | Service showcase, custom offering display         |
+| ✅ 4   | **Contact Form**                 | Lead generation                                   |
+| ✅ 5   | **Footer**                       | Contact info, copyright                           |
+| 🔜 6  | **Modal Popup**                  | Reusable overlay for forms, alerts, login, etc.   |
+| 7     | **Responsive Sidebar**           | For dashboards or mobile menus                    |
+| 8     | **Carousel / Slider**            | Highlight testimonials, products, banners         |
+| 9     | **Tabs**                         | Content separation (e.g., Plans, Benefits, FAQs)  |
+| 10    | **Accordion (FAQs)**             | Collapsible sections for simplicity               |
+| 11    | **Dark Mode Toggle**             | Theme flexibility and modern UX                   |
+| 12    | **Toast Notifications**          | Lightweight feedback for form submissions, errors |
+| 13    | **Loader / Spinner**             | User feedback while waiting                       |
+| 14    | **Card Grid with Filter/Search** | Highlight services with interactivity             |
+| 15    | **Pricing Plans**                | Structured display for service tiers              |
 
 # Getting Started with Create React App
 
