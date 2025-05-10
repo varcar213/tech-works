@@ -22,7 +22,7 @@ Samples:
 | 13    | **Loader / Spinner**             | User feedback while waiting                       |
 | 14    | **Card Grid with Filter/Search** | Highlight services with interactivity             |
 | 15    | **Pricing Plans**                | Structured display for service tiers              |
-| 16    | **Multi-Step Form Wizard **      | Structured steps of form                          |
+| 16    | **Multi-Step Form Wizard**       | Structured steps of form                          |
 
 # Getting Started with Create React App
 
