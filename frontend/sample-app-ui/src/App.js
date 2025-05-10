@@ -17,6 +17,8 @@ import DemoButtons from './components/DemoButtons';
 import Loader from './components/Loader';
 import CardGrid from './components/CardGrid';
 import PricingPlans from './components/PricingPlans';
+import { BrowserRouter } from 'react-router-dom';
+import ComponentRoutes from './routes/ComponentRoutes';
 
 const App = () => {
 
@@ -34,23 +36,23 @@ const App = () => {
       <Hero />
       <h1>Secure Your Digital Future</h1>
       <div>
-      {loading ? <Loader /> : <h2>Spinner stopped! Data Loaded Successfully!</h2>}
-    </div>
+        {loading ? <Loader /> : <h2>Spinner stopped! Data Loaded Successfully!</h2>}
+      </div>
+      <BrowserRouter>
+          <ComponentRoutes />
+      </BrowserRouter>
+      <h2>Other Components</h2>
       <section id="tab" className="card-wrapper">
-          <Tabs />
-          <Accordion />
-          <DarkModeToggle />
-          <ToastProvider>
-            <DemoButtons />
-          </ToastProvider>
-        </section>
-        <section id="cardgrid" className="card-wrapper">
-          <CardGrid />
-          <PricingPlans />
-        </section>
-      <button onClick={() => setShowModal(true)} className="open-modal-btn">
-        Open Modal
-      </button>
+        <ToastProvider>
+          <DemoButtons />
+        </ToastProvider>
+        <button onClick={() => setShowModal(true)} className="open-modal-btn">
+          Open Modal
+        </button>
+        <Modal isOpen={showModal} onClose={() => setShowModal(false)} title="Welcome">
+            <p>This is a sample modal. You can show terms, login forms, or alerts here.</p>
+        </Modal>
+      </section>     
       <h2>Cards</h2>
       <section id="cyberimages" className="card-wrapper">
         <ImageCard
@@ -85,17 +87,7 @@ const App = () => {
           description="Protect your applications from threats and vulnerabilities."
         />
         </section>
-       
-        
-        <section id="slidebar" className="card-wrapper">
-          <Sidebar/>
-          <Carousel />
-          <Modal isOpen={showModal} onClose={() => setShowModal(false)} title="Welcome">
-          <p>This is a sample modal. You can show terms, login forms, or alerts here.</p>
-          </Modal>
-        </section>
-        <ContactForm />
-        <Footer />
+        <Footer /> 
     </div>
   );
 };
