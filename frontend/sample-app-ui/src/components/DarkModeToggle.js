@@ -7,8 +7,17 @@ const DarkModeToggle = () => {
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add('dark');
+      const container = document.querySelector('.app-container');
+if (container) {
+  container.classList.add('dark');
+}
     } else {
       document.body.classList.remove('dark');
+      const container = document.querySelector('.app-container');
+if (container) {
+  container.classList.remove('dark');
+}
+
     }
   }, [darkMode]);
 

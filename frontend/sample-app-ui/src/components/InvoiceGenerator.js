@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import  styles from  '../styles/InvoiceGenerator.scss';   
+import '../styles/InvoiceGenerator.scss';   
 
 const InvoiceGenerator = () => {
   const [items, setItems] = useState([]);
@@ -22,8 +22,8 @@ const InvoiceGenerator = () => {
   const totalAmount = items.reduce((acc, curr) => acc + curr.total, 0);
 
   return (
-    <div className={styles.invoiceWrapper}>
-      <div className={styles.invoiceHeader}>
+    <div className="invoiceWrapper">
+      <div className="invoiceHeader">
         <div>
           <input
             type="text"
@@ -61,7 +61,7 @@ const InvoiceGenerator = () => {
         </div>
       </div>
 
-      <table className={styles.itemsList}>
+      <table className="itemsList">
         <thead>
           <tr>
             <th>Item</th>
@@ -82,7 +82,7 @@ const InvoiceGenerator = () => {
         </tbody>
       </table>
 
-      <div className={styles.totalAmount}>
+      <div className="totalAmount">
         <div className="label">Total Amount:</div>
         <div className="amount">${totalAmount.toFixed(2)}</div>
       </div>

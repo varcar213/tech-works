@@ -20,6 +20,7 @@ import ImageUploader from '../components/ImageUploader';
 import StatsCounter from '../components/StatsCounter';
 import MapEmbed from '../components/MapEmbed';
 import InvoiceGenerator from '../components/InvoiceGenerator'; // Import the InvoiceGenerator component
+import DateRangePicker from '../components/DateRangePicker'; // Import the DateRangePicker component
 
 // Import other components as needed
 
@@ -47,6 +48,7 @@ const ComponentRoutes = () => {
       <Route path="/stats-counter" element={<StatsCounter />} />
       <Route path="/map-embed" element={<MapEmbed />} />
       <Route path="/invoice-generator" element={<InvoiceGenerator />} />
+      <Route path="/date-range-picker" element={<DateRangePicker />} />
         {/* Add more routes as needed */}
     </Routes>
   );

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styles from '../styles/ImageUploader.scss';
+import '../styles/ImageUploader.scss';
 
 const ImageUploader = () => {
   const [image, setImage] = useState(null);
@@ -27,7 +27,7 @@ const ImageUploader = () => {
   };
 
   return (
-    <div className={styles.uploaderContainer}>
+    <div className="uploaderContainer">
       <h2>Upload Image</h2>
       <input
         type="file"
@@ -37,10 +37,10 @@ const ImageUploader = () => {
       />
       <label htmlFor="image-upload">Choose Image</label>
 
-      {error && <div className={styles.error}>{error}</div>}
+      {error && <div className="error">{error}</div>}
 
       {previewUrl && (
-        <div className={styles.preview}>
+        <div className="preview">
           <img src={previewUrl} alt="Preview" />
         </div>
       )}

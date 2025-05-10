@@ -26,7 +26,7 @@ const App = () => {
     <div className="app-container">
       <Header />
       <Hero />
-      <h1>Secure Your Digital Future</h1>
+     
       <div>
         {loading ? <Loader /> : <h2>Spinner stopped! Data Loaded Successfully!</h2>}
       </div>

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from '../styles/StatsCounter.scss';
+import  '../styles/StatsCounter.scss';
 
 const CounterCard = ({ label, target }) => {
   const [count, setCount] = useState(0);
@@ -23,7 +23,7 @@ const CounterCard = ({ label, target }) => {
   }, [target]);
 
   return (
-    <div className={styles.card}>
+    <div className="card">
       <h3>{count}</h3>
       <p>{label}</p>
     </div>
@@ -39,7 +39,7 @@ const StatsCounter = () => {
   ];
 
   return (
-    <div className={styles.counterSection}>
+    <div className="counterSection">
       {stats.map((stat, index) => (
         <CounterCard key={index} label={stat.label} target={stat.target} />
       ))}
