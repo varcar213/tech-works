@@ -23,6 +23,11 @@ Samples:
 | 14    | **Card Grid with Filter/Search** | Highlight services with interactivity             |
 | 15    | **Pricing Plans**                | Structured display for service tiers              |
 | 16    | **Multi-Step Form Wizard**       | Structured steps of form                          |
+| 17    | **Image Uploader**               | Uploads and displays image                        |
+| 18    | **Stats Counter**                | Count the statistic                               |
+| 19    | **Embeded Map**                  | Search for a location and locate map & coordinates|
+| 20   | **Invoice Generator**             | Generate Invoice for items                        |
+| 21    | **Date Range**                   | Select a Date Range                               |
 
 # Getting Started with Create React App
 
