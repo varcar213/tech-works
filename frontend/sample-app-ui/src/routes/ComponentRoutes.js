@@ -15,6 +15,14 @@ import Carousel from '../components/Carousel';
 import Tabs from '../components/Tabs';
 import DarkModeToggle from '../components/DarkModeToggle';
 import CardGrid from '../components/CardGrid';
+import MultiStepForm from '../components/MultiStepForm';
+import ImageUploader from '../components/ImageUploader';
+import StatsCounter from '../components/StatsCounter';
+import MapEmbed from '../components/MapEmbed';
+import InvoiceGenerator from '../components/InvoiceGenerator'; // Import the InvoiceGenerator component
+
+// Import other components as needed
+
 
 const ComponentRoutes = () => {
   return (
@@ -34,6 +42,12 @@ const ComponentRoutes = () => {
       <Route path="/tabs" element={<Tabs />} />
       <Route path="/darkmodetoggle" element={<DarkModeToggle />} />
       <Route path="/cardgrid" element={<CardGrid />} />
+      <Route path="/multi-step-form" element={<MultiStepForm />} />
+      <Route path="/image-uploader" element={<ImageUploader />} />
+      <Route path="/stats-counter" element={<StatsCounter />} />
+      <Route path="/map-embed" element={<MapEmbed />} />
+      <Route path="/invoice-generator" element={<InvoiceGenerator />} />
+        {/* Add more routes as needed */}
     </Routes>
   );
 };

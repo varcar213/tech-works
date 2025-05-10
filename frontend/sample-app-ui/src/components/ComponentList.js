@@ -22,6 +22,12 @@ const componentLinks = [
   { name: 'Sidebar', path: '/sidebar' },
   { name: 'Tabs', path: '/tabs' },
   // { name: 'Demo Buttons', path: '/demobuttons' },
+  { name: 'Multi-Step Form', path: '/multi-step-form' },
+  { name: 'Image Uploader', path: '/image-uploader' },
+  { name: 'Stats Counter', path: '/stats-counter' },
+  { name: 'Map Embed', path: '/map-embed' },
+  { name: 'Invoice Generator', path: '/invoice-generator' },
+
 ];
 
 const ComponentList = () => {

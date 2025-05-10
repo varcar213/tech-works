@@ -1,0 +1,29 @@
+.counterSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  
+    .card {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      text-align: center;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  
+      h3 {
+        font-size: 2rem;
+        color: #2563eb;
+        margin: 0;
+      }
+  
+      p {
+        margin-top: 0.5rem;
+        color: #6b7280;
+      }
+    }
+  }
+  
