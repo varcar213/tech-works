@@ -1,0 +1,24 @@
+// PaymentComponent.scss
+.payment-container {
+    padding: 2rem;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+    .pay-btn {
+      padding: 0.8rem 1.5rem;
+      background: #3399cc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+  
+      &:hover {
+        background: #2a80b9;
+      }
+    }
+  }
+  

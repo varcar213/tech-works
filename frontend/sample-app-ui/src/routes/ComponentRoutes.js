@@ -21,6 +21,7 @@ import StatsCounter from '../components/StatsCounter';
 import MapEmbed from '../components/MapEmbed';
 import InvoiceGenerator from '../components/InvoiceGenerator'; // Import the InvoiceGenerator component
 import DateRangePicker from '../components/DateRangePicker'; // Import the DateRangePicker component
+import PaymentComponent from '../components/PaymentComponent'; // Import the PaymentComponent
 
 // Import other components as needed
 
@@ -49,6 +50,8 @@ const ComponentRoutes = () => {
       <Route path="/map-embed" element={<MapEmbed />} />
       <Route path="/invoice-generator" element={<InvoiceGenerator />} />
       <Route path="/date-range-picker" element={<DateRangePicker />} />
+      <Route path="/payment" element={<PaymentComponent />} />
+    
         {/* Add more routes as needed */}
     </Routes>
   );

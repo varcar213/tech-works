@@ -28,6 +28,7 @@ const componentLinks = [
   { name: 'Map Embed', path: '/map-embed' },
   { name: 'Invoice Generator', path: '/invoice-generator' },
   { name: 'Date Range Picker', path: '/date-range-picker' },
+  { name: 'Payment Component', path: '/payment' },
 
 ];
 

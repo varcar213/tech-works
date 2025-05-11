@@ -1,4 +1,8 @@
 import React, { useState , useEffect } from 'react';
+
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import store from './redux/store';
 import './styles/App.scss';
 import ServiceCard from './components/ServiceCard';
 import ImageCard from './components/ImageCard';
@@ -9,9 +13,9 @@ import Modal from './components/Modal';
 import { ToastProvider } from './components/ToastContext';
 import DemoButtons from './components/DemoButtons';
 import Loader from './components/Loader';
-import { BrowserRouter } from 'react-router-dom';
 import ComponentRoutes from './routes/ComponentRoutes';
-
+import ProductList from './components/ProductList';
+import CartSidebar from './components/CartSidebar';
 const App = () => {
 
   const [showModal, setShowModal] = useState(false);
@@ -78,6 +82,15 @@ const App = () => {
           title="Application Security"
           description="Protect your applications from threats and vulnerabilities."
         />
+        </section>
+        <h2>Changeable data</h2>
+        <section id="services" className="card-wrapper">
+          <Provider store={store}>
+            <div style={{ display: 'flex' }}>
+              <ProductList />
+              <CartSidebar />
+            </div>
+          </Provider>
         </section>
         <Footer /> 
     </div>
